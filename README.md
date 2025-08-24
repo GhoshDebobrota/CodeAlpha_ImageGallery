@@ -34,8 +34,9 @@ It helped me strengthen my **JavaScript DOM manipulation skills** and understand
 ## 📬 Connect With Me
 
 Let’s network and collaborate!
-🔗 [LinkedIn](https://www.linkedin.com/)
-💻 [GitHub](https://github.com/)
+
+🔗 [LinkedIn](https://www.linkedin.com/in/debobrotaghosh)
+💻 [GitHub](https://github.com/GhoshDebobrota)
 
 ---
 
