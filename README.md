@@ -1,38 +1,42 @@
-🖼️ CodeAlpha_ImageGallery
+# 🖼️ CodeAlpha Image Gallery
 
-A simple and responsive image gallery built using HTML, CSS, and JavaScript.
-The gallery lets you filter images by categories (All, Nature, Car, Animal) and preview them in a lightbox.
+A responsive image gallery built with **HTML, CSS, and JavaScript** during my **CodeAlpha Internship**.
+This project showcases my skills in **web development, UI/UX design, and interactivity**. 🚀
 
-🚀 Features
+---
 
-Responsive layout (desktop & mobile)
+## ✨ Features
 
-Category-based filtering (All, Nature, Car, Animal)
+🖼️ Responsive gallery layout (desktop & mobile)
+📂 Category-based filtering (**All, Nature, Car, Animal**)
+🔍 Lightbox image preview
+🎨 Clean and minimal UI design
 
-Image preview with lightbox
+---
 
-Clean and minimal design
+## 🎯 Internship Highlight
 
-🛠️ Tech Stack
+This project was developed as part of my **CodeAlpha Internship**.
+It helped me strengthen my **JavaScript DOM manipulation skills** and understand how to build a user-friendly, responsive gallery.
 
-HTML5 – Structure
+---
 
-CSS3 – Styling
+## 📖 What I Learned
 
-JavaScript – Interactivity
+* Building layouts using **CSS Grid & Flexbox**
+* Implementing **dynamic filtering** with JavaScript
+* Creating a **lightbox modal** for images
+* Writing **clean, minimal, and reusable code**
+* Organizing project structure for scalability
 
-📖 What I Learned
+---
 
-Building a responsive layout using CSS Grid
+## 📬 Connect With Me
 
-Implementing category-based filtering with JavaScript
+Let’s network and collaborate!
+🔗 [LinkedIn](https://www.linkedin.com/)
+💻 [GitHub](https://github.com/)
 
-Creating a lightbox effect for image preview
+---
 
-Enhancing UI/UX with hover effects & minimal design
-
-Structuring projects cleanly with HTML, CSS, and JS separation
-
-🏢 Internship Note
-
-This project was created as part of my CodeAlpha Internship to practice and improve my front-end development skills.
+⭐ If you liked this project, don’t forget to **star the repo**!
