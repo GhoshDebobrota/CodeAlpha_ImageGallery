@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>Image Gallery</h1>
+      <nav class="filters" aria-label="Gallery filters">
+        <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button class="filter-btn" data-filter="car">Car</button>
+        <button class="filter-btn" data-filter="animal">Animal</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="gallery" class="gallery" aria-live="polite">
+      <!-- === Add your own images inside ./assets/ === -->
+
+      <!-- Nature -->
+      <figure class="card" data-category="nature">
+        <img src="assets/nature1.jpg" alt="Nature 1" loading="lazy" decoding="async"/>
+      </figure>
+      <figure class="card" data-category="nature">
+        <img src="assets/nature2.jpg" alt="Nature 2" loading="lazy" decoding="async"/>
+      </figure>
+      <figure class="card" data-category="nature">
+        <img src="assets/nature3.jpg" alt="Nature 3" loading="lazy" decoding="async"/>
+      </figure>
+      <figure class="card" data-category="nature">
+        <img src="assets/nature4.jpg" alt="Nature 4" loading="lazy" decoding="async"/>
+      </figure>
+      <figure class="card" data-category="nature">
+        <img src="assets/nature5.jpg" alt="Nature 5" loading="lazy" decoding="async"/>
+      </figure>
+
+      <!-- Car -->
+      <figure class="card" data-category="car">
+        <img src="assets/car1.jpg" alt="Car 1" loading="lazy" decoding="async"/>
+      </figure>
+      <figure class="card" data-category="car">
+        <img src="assets/car2.jpg" alt="Car 2" loading="lazy" decoding="async"/>
+      </figure>
+      <figure class="card" data-category="car">
+        <img src="assets/car3.jpg" alt="Car 3" loading="lazy" decoding="async"/>
+      </figure>
+      <figure class="card" data-category="car">
+        <img src="assets/car4.jpg" alt="Car 4" loading="lazy" decoding="async"/>
+      </figure>
+      <figure class="card" data-category="car">
+        <img src="assets/car5.jpg" alt="Car 5" loading="lazy" decoding="async"/>
+      </figure>
+
+      <!-- Animal -->
+      <figure class="card" data-category="animal">
+        <img src="assets/animal1.jpg" alt="Animal 1" loading="lazy" decoding="async"/>
+      </figure>
+      <figure class="card" data-category="animal">
+        <img src="assets/animal2.jpg" alt="Animal 2" loading="lazy" decoding="async"/>
+      </figure>
+      <figure class="card" data-category="animal">
+        <img src="assets/animal3.jpg" alt="Animal 3" loading="lazy" decoding="async"/>
+      </figure>
+      <figure class="card" data-category="animal">
+        <img src="assets/animal4.jpg" alt="Animal 4" loading="lazy" decoding="async"/>
+      </figure>
+      <figure class="card" data-category="animal">
+        <img src="assets/animal5.jpg" alt="Animal 5" loading="lazy" decoding="async"/>
+      </figure>
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+    <button class="lightbox__close" aria-label="Close viewer">✕</button>
+    <button class="lightbox__prev" aria-label="Previous image">‹</button>
+    <img id="lightbox-img" alt="Large view"/>
+    <button class="lightbox__next" aria-label="Next image">›</button>
+    <p id="lightbox-cap"></p>
+  </div>
+
+  <footer class="site-footer">
+    <p>Simple Image Gallery · <span class="love">Made with ❤️</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
